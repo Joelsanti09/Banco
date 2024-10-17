@@ -1,4 +1,4 @@
-public class Cuenta {
+public abstract class Cuenta {
     protected int numeroCuenta;
     protected String titular;
     protected long saldo;
