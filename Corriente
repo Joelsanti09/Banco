@@ -1,0 +1,7 @@
+public class Corriente extends Cuenta {
+    private long sobregiro;
+
+    public Corriente(int numeroCuenta, String titular, long sobregiro) {
+        super(numeroCuenta, titular);
+        this.sobregiro = sobregiro;
+    }
