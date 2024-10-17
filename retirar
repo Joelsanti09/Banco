@@ -1,0 +1,9 @@
+public void retirar(long valor) {
+        if (valor <= this.saldo + sobregiro) {
+            this.saldo -= valor;
+        } else {
+            System.out.println("Saldo insuficiente, incluso con sobregiro.");
+        }
+    }
+
+}
